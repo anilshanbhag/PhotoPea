@@ -9,8 +9,8 @@
 		
 		<title>Photopea | Online Image Editor</title>
 		
-		<link rel="icon" sizes="256x256" href="/promo/thumb256.png">
-		<link rel="image_src"  type="image/png"  href="/promo/thumb256.png" />
+		<link rel="icon" sizes="256x256" href="promo/thumb256.png">
+		<link rel="image_src"  type="image/png"  href="promo/thumb256.png" />
 		<link rel="manifest" href="manifest.json">
 		<link rel="chrome-webstore-item" href="//chrome.google.com/webstore/detail/fmophgdjdipcbfjiopifpngdjmemonko">
 		
@@ -47,18 +47,18 @@
 				localStorage.setItem("capShown", ""+vis);
 			}
 		</script>
-		<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<!-- 		<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
 		<script>
 		  var googletag = googletag || {};
 		  googletag.cmd = googletag.cmd || [];
-		</script>
+		</script> -->
 	</head>
 	
 	<body class="theme0">		
 		<!---->
 		<div id="cap">
 			<span style="position:absolute;right:0;top:0;font-size:7em;margin:0 0.2em;cursor:pointer;" onclick="hideCap()">✕</span>
-			<img style="width:8em; margin-top:1.7em;" src="/promo/icon256.png" alt="Photopea logo" />
+			<img style="width:8em; margin-top:1.7em;" src="promo/icon256.png" alt="Photopea logo" />
 			<h1>Photopea: advanced image editor</h1>
 			<p style="font-size:1.3em">Free online design editor supporting <b>PSD</b>, <b>XCF</b>, <b>Sketch</b>, <b>XD</b> and <b>CDR</b> formats. 
 			(<b>Adobe Photoshop</b>, <b>GIMP</b>, <b>Sketch App</b>,  <b>Adobe XD</b> and  <b>CorelDRAW</b>).</p>
@@ -113,12 +113,7 @@
 		<script src="code/pp.js"></script>	
 		
 		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		  ga('create', 'UA-4249565-37', 'photopea.com');
-		  ga('send', 'pageview');
+      function ga(x,y,z,w,t) {}
 		</script>
 	</body>
 
